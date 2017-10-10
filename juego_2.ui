@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>juego_2</class>
+ <widget class="QMainWindow" name="juego_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{
+ 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+
+}</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>731</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(206, 92, 0);
+border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-top-left-radius: 25px;
+border-top-right-radius: 0px;
+border-bottom-right-radius:25px;
+border-bottom-left-radius: 0px; 
+min-height: 70px; max-height:70px;
+</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>-2</x>
+          <y>0</y>
+          <width>701</width>
+          <height>74</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">font: 57 16pt &quot;Arial&quot;;
+color: rgb(40,40,40); </string>
+           </property>
+           <property name="text">
+            <string>Usuario:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_user_name">
+           <property name="styleSheet">
+            <string notr="true">font: 57 16pt &quot;Arial&quot;;  
+color: black;</string>
+           </property>
+           <property name="text">
+            <string>usertest</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">font: 57 16pt &quot;Arial&quot;;
+color: rgb(40,40,40); </string>
+           </property>
+           <property name="text">
+            <string>Puntaje:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_score">
+           <property name="styleSheet">
+            <string notr="true">font: 57 16pt &quot;Arial&quot;;  
+color: black;</string>
+           </property>
+           <property name="text">
+            <string>100</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="styleSheet">
+            <string notr="true">font: 57 16pt &quot;Arial&quot;;
+color: rgb(40,40,40); </string>
+           </property>
+           <property name="text">
+            <string>Nivel:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_level">
+           <property name="styleSheet">
+            <string notr="true">font: 57 16pt &quot;Arial&quot;;  
+color: black;</string>
+           </property>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-top-left-radius: 25px;
+border-top-right-radius: 0px;
+border-bottom-right-radius:25px;
+border-bottom-left-radius: 0px; 
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+           </property>
+           <property name="text">
+            <string>Menu</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="l_continente">
+       <property name="styleSheet">
+        <string notr="true">font: 57 16pt &quot;Arial&quot;;
+color: rgb(40,40,40);
+min-height: 35px; max-height: 35px;</string>
+       </property>
+       <property name="text">
+        <string>..AMERICA..</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">font: 57 17pt &quot;Arial&quot;;
+color: rgb(40,40,40);
+min-height: 50px;max-height: 50px;
+ </string>
+           </property>
+           <property name="text">
+            <string>Selecciona la bandera correcta de</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_pais">
+           <property name="styleSheet">
+            <string notr="true">font: 57 17pt &quot;Arial&quot;;
+color: rgb(40,40,40);
+min-height: 50px;max-height: 50px;
+ </string>
+           </property>
+           <property name="text">
+            <string>---- nombre pais ----</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="imagen">
+         <property name="styleSheet">
+          <string notr="true">min-height: 150px; max-height: 150px;
+
+ </string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QRadioButton" name="r_ban1">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="img1">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="r_ban2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="img2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="r_ban3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="img3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnsiguiente">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-top-left-radius: 25px;
+border-top-right-radius: 0px;
+border-bottom-right-radius:25px;
+border-bottom-left-radius: 0px; 
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Siguiente</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>771</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

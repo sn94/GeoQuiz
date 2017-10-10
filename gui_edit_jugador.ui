@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gui_edit_jugador</class>
+ <widget class="QMainWindow" name="gui_edit_jugador">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>314</width>
+    <height>343</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+}</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>211</width>
+      <height>242</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="l_nick">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(40,40,40);
+font-size: 18px;
+text-align: center;</string>
+       </property>
+       <property name="text">
+        <string>Tu nick de jugador:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="t_nick">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+ max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+background-image: url(:/user.png);
+background-repeat: no-repeat;
+padding-left: 32px;
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="l_nnick">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(40,40,40);
+font-size: 18px;
+text-align: center;</string>
+       </property>
+       <property name="text">
+        <string>Tu nuevo nick:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="t_nnick">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+ max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+background-image: url(:/user.png);
+background-repeat: no-repeat;
+padding-left: 32px;
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="l_pass">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(40,40,40);
+font-size: 18px;
+text-align: center;</string>
+       </property>
+       <property name="text">
+        <string>Nueva clave:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="t_pass">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+ max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+background-image: url(:/key.png);
+background-repeat: no-repeat;
+padding-left: 32px;
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_editar">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-top-left-radius: 25px;
+border-top-right-radius: 0px;
+border-bottom-right-radius:25px;
+border-bottom-left-radius: 0px; 
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>314</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

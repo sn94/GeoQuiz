@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QMainWindow" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>888</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MENU</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralWidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+}</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>20</y>
+      <width>371</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="l_nom_usu">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/user1.png);
+background-repeat: no repeat;
+padding-left:  32px;
+min-height: 32px;  max-height: 32px;
+ color: rgb(40, 40, 40);
+font-size: 20px;</string>
+       </property>
+       <property name="text">
+        <string>**User name**</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_editar_jug">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-top-left-radius: 25px;
+border-top-right-radius: 0px;
+border-bottom-right-radius:25px;
+border-bottom-left-radius: 0px; 
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Editar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>849</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="l_img2">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/CAPITALS_128.png);
+background-repeat: no repeat;
+background-position: center;
+max-height: 128px; min-height: 128px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_juego2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-radius:  10px; 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+         </property>
+         <property name="text">
+          <string>Capitales del mundo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">color:  rgb( 40, 40, 40);
+font-size: 18px;
+border-style: solid;
+border-bottom:  1px dotted rgb(20,20,20);</string>
+         </property>
+         <property name="text">
+          <string>Cual es la capital de ... ?</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="l_img4_2">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/flags_128.png);
+background-repeat: no repeat;
+background-position:center;
+max-height: 128px; min-height: 128px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_banderas_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-radius:  10px; 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+         </property>
+         <property name="text">
+          <string>Banderas</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">color:  rgb( 40, 40, 40);
+font-size: 18px;
+border-style: solid;
+border-bottom:  1px dotted rgb(20,20,20);</string>
+         </property>
+         <property name="text">
+          <string>Esta bandera es de cual pais?</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="l_img3">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/paisaje_128.png);
+background-repeat: no repeat;
+background-position: center;
+max-height: 128px; min-height: 128px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_juego3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-radius:  10px; 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+         </property>
+         <property name="text">
+          <string>Paisajes y sitios historicos</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">color:  rgb( 40, 40, 40);
+font-size: 18px;
+border-style: solid;
+border-bottom:  1px dotted rgb(20,20,20);</string>
+         </property>
+         <property name="text">
+          <string>Como se llama este lugar y donde esta?</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>888</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>jugar_paises()</slot>
+  <slot>jugar_capitales()</slot>
+  <slot>jugar_paisajes()</slot>
+  <slot>editar_jugador()</slot>
+  <slot>abm()</slot>
+ </slots>
+</ui>

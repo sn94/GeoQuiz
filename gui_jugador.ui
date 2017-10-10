@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gui_jugador</class>
+ <widget class="QMainWindow" name="gui_jugador">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>383</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Nuevo jugador</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+}</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>22</y>
+      <width>301</width>
+      <height>310</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="l_nom">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(40,40,40);
+font-size: 18px;
+text-align: center;</string>
+       </property>
+       <property name="text">
+        <string>Nombre:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="t_nom">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+ max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+  
+	background-color: rgb(245, 236, 167);
+padding-left: 32px;
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(40,40,40);
+font-size: 18px;
+text-align: center;</string>
+       </property>
+       <property name="text">
+        <string>Apellido:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="t_ape">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+ max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+  
+	background-color: rgb(245, 236, 167);
+padding-left: 32px;
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="l_login">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(40,40,40);
+font-size: 18px;
+text-align: center;</string>
+       </property>
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="t_login">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+ max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+background-image: url(:/user.png);
+background-repeat: no-repeat;
+padding-left: 32px;
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="l_clave">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(40,40,40);
+font-size: 18px;
+text-align: center;</string>
+       </property>
+       <property name="text">
+        <string>Clave:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="t_clave">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+ max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+background-image: url(:/key.png);
+background-repeat: no-repeat;
+padding-left: 32px;
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="grbr_jugador">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{ 
+	border-color: rgba(193, 125, 17, 0.6);
+border-style:solid;
+border-width:2px;
+border-top-left-radius: 25px;
+border-top-right-radius: 0px;
+border-bottom-right-radius:25px;
+border-bottom-left-radius: 0px; 
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 121, 0, 255), stop:1 rgba(255, 255, 255, 255));
+max-height: 32px;
+min-height: 32px;
+font-size: 20px;
+color: rgb(40, 40, 40);
+}
+
+QPushButton:hover{
+ 
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+font-size:24px;
+height: 64px;
+background-image:url(:/background_3.jpg);
+ color:  rgb(143, 89, 2);
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Guardar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>383</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>guardarJugador()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QMainWindow" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LOGIN</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{
+ 
+	background-image: url(:/background_2.jpg);
+ 
+
+}</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>0</y>
+      <width>221</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <widget class="QLineEdit" name="txt_usu">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>211</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+background-image: url(:/user1.png);
+background-repeat: none;
+padding-left: 32px; max-height: 32px;min-height: 32px;
+font-size: 24px;
+color: rgb( 40, 40, 40);
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_clave">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>211</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+ 
+	border-color: rgb(233, 185, 110);
+border-style:solid;
+border-width:2px;
+border-radius: 10px; 
+background-image: url(:/key.png);
+background-repeat: none;
+padding-left: 32px; max-height: 32px;min-height: 32px;
+font-size: 24px; color: rgb( 40, 40, 40);
+}
+
+QLineEdit:hover{
+ 
+	border-color: rgb(245, 121, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} 
+
+QLineEdit:focus{
+ 
+	border-color: rgb(196, 160, 0);
+border-style:solid;
+border-width: 3px; font-size: 14px;font-weight: bolder;
+
+} </string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_entrar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>170</y>
+       <width>71</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{ 
+min-height: 64px;max-height: 64px;
+border: none;
+background-image: url(:/ingresar.png);
+background-repeat: none;
+background-position:center;
+}
+
+QPushButton:hover{
+border-color:  #55ff55;
+border-style:solid;
+border-width: 3px; 
+border-radius:  25px; 
+background-color: #aaaaff;  
+min-height: 64px;max-height: 64px;
+background-image: url(:/ingresar.png);
+background-repeat: none; 
+} 
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_crear">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>170</y>
+       <width>71</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{ 
+min-height: 64px;max-height: 64px;
+border: none;
+background-image: url(:/adduser.png);
+background-repeat: none;
+background-position:center;
+}
+
+QPushButton:hover{
+border-color:  #55ff55;
+border-style:solid;
+border-width: 3px; 
+border-radius:  25px; 
+background-color: #aaaaff;  
+min-height: 64px;max-height: 64px;
+background-image: url(:/adduser.png);
+background-repeat: none; 
+} </string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>100</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#label{
+font-size:24px;
+max-width: 100%;
+min-width: 100%; 
+color: rgb( 40, 40, 40);
+}</string>
+     </property>
+     <property name="text">
+      <string>Hola!</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>486</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_crear</sender>
+   <signal>clicked()</signal>
+   <receiver>login</receiver>
+   <slot>crearJugador()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>265</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>229</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_entrar</sender>
+   <signal>clicked()</signal>
+   <receiver>login</receiver>
+   <slot>loguear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>265</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>270</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>crearJugador()</slot>
+  <slot>loguear()</slot>
+ </slots>
+</ui>

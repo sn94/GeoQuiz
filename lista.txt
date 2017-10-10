@@ -1,0 +1,6 @@
+Europa:Albania:Tirana
+Europa:Alemania:Berlín
+Europa:Andorra:Andorra la Vieja
+Europa:Armenia:Ereván
+Europa:Austria:Viena
+Europa:Azerbaiyán:Bakú
